@@ -1,0 +1,79 @@
+/* Paleta de colores */
+
+.yellow-text {
+    color: #eac926;
+}
+
+.blue-text {
+    color: #03264c;
+}
+
+.lightblue-text {
+    color: #1259c3;
+}
+
+.gray-text {
+    color: #666;
+}
+
+.lightgray-text {
+    color: #ebebeb;
+}
+
+.green-text {
+    color: #39b54a;
+}
+
+.yellow-background {
+    background-color: #eac926;
+}
+
+.blue-background {
+    background-color: #03264c;
+}
+
+.lightblue-background {
+    background-color: #1259c3;
+}
+
+.gray-background {
+    background-color: #666;
+}
+
+.lightgray-background {
+    background-color: #ebebeb;
+}
+
+.green-background {
+    background-color: #39b54a;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+/* Tipografías y tamaños tipográficos */
+
+body {
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.text-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.text-price {
+    font-size: 18px;
+}
+
+.text-discount {
+    font-size: 16px;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.text-description {
+    font-size: 16px;
+}

@@ -1,0 +1,15 @@
+/* Tablet 361*/
+.burger-menu {
+    display: none;
+}
+
+.product-content .text-description {
+    display: initial;
+}
+
+.site-loginnavbar-display {
+    display: initial;
+}
+.product {
+    width: 50%;
+}
