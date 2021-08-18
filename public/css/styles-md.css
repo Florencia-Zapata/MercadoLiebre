@@ -2,3 +2,41 @@
 .product {
     width: 25%;
 }
+
+.product-content .text-description {
+    /*opacity: 0;*/
+    display: none;
+}
+
+.product-wrapper {
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+}
+
+.product-wrapper:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.product-wrapper:hover .text-description {
+    /*transition: opacity ease-in: 100ms;*/
+    display: initial;
+}
+
+.truck-icon {
+    transition: transform ease-in-out 400ms;
+}
+
+.product-wrapper:hover .truck-icon {
+    transform: rotate(360deg); /*90grados tarea*/
+}
+.footer-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-wrapper > .footer-item {
+    width: 30%;
+}
+
+.footer-icon-size:hover {
+    color: #eac926;
+}
