@@ -26,7 +26,7 @@
 
 .banner {
     display: block;
-    width: 100%
+    width: 100%;
 }
 
 /* menú hamburguesa */
@@ -132,10 +132,5 @@
 }
 
 .login input[type="submit"]:hover {
-  background-color: #0022aa;
-
-.wrapper {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #0022aa;
 }
